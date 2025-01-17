@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>Uncommon HTML Bug</title></head><body> <div id="myDiv"></div> <script> // Incorrect attempt to access the div before it's fully parsed. function myFunction() {  document.getElementById("myDiv").innerHTML = "Hello, world!"; } window.onload = myFunction(); </script> </body></html>
