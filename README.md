@@ -1,0 +1,1 @@
+This repository demonstrates a race condition bug in HTML where JavaScript code attempts to access a DOM element before the browser has finished parsing the HTML. This can lead to unexpected errors where the element is not found or returns null. The solution showcases proper use of event listeners or a check to make sure the element exists before accessing it. 
